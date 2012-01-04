@@ -1,13 +1,13 @@
 # peeper.js
 
-*peeper.js* is a tiny javascript data-binding library allowing one-way binding of simple text elements
-to text inputs.
+*peeper.js* lets you bind dom elements to text inputs with one simple assignment: `data-source="[input id]"`
 
 # Usage
 
-First make sure to include the library:
+First make sure to include the library along with jquery:
 
 ```
+<script src="jquery.js" type="text/javascript"></script>
 <script src="peeper.js" type="text/javascript"></script>
 ```
 
