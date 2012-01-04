@@ -11,7 +11,7 @@ First make sure to include the library along with jquery:
 <script src="peeper.js" type="text/javascript"></script>
 ```
 
-Then simply assign the id of the watched input to the peeper's `data-source` attribute.
+Then simply assign the `id` of the watched input to the peeper's `data-source` attribute.
 
 ```
 <input type="text" id="observed_field" />
